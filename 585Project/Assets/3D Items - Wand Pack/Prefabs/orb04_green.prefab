@@ -10,6 +10,9 @@ GameObject:
   - component: {fileID: 472244}
   - component: {fileID: 3307826}
   - component: {fileID: 2395102}
+  - component: {fileID: 114074943762046490}
+  - component: {fileID: 54045075547491764}
+  - component: {fileID: 65703144581008688}
   m_Layer: 0
   m_Name: orb04_green
   m_TagString: Untagged
@@ -82,3 +85,41 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 164848}
   m_IsPrefabParent: 1
+--- !u!54 &54045075547491764
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164848}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65703144581008688
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: -7.6232965e-21, y: 0.00000013411048, z: -3.1974426e-14}
+--- !u!114 &114074943762046490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4510f796561443cd9f312f9a15b0c09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
