@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class damage : MonoBehaviour {
-	
+
+	int score = 0;
 
 
 //	void onTriggerEnter(Collider other){
@@ -26,6 +27,7 @@ public class damage : MonoBehaviour {
 		{
 //			col.gameObject.GetComponent<Renderer> ().material.color = Color.red;
 			col.gameObject.SetActive(false);
+			score++;
 		}
 	}
 

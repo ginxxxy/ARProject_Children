@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class collectcoins : MonoBehaviour {
 	public GameObject ccoin;
-	public int scorecount = 0;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -14,7 +14,12 @@ public class collectcoins : MonoBehaviour {
 	void Update () {
 		if(Input.GetKeyDown("s")){
 			Destroy(ccoin);
-			scorecount++;
+			Scorecount.scorevalue++;
 		}
+	}
+	void OnMouseDown ()
+	{
+		Destroy(ccoin);
+		Scorecount.scorevalue++;
 	}
 }
