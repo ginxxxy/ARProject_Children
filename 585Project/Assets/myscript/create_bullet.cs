@@ -13,6 +13,7 @@ public class create_bullet : MonoBehaviour {
 	public GameObject bullet02;
 	public GameObject bullet03;
 	public GameObject bullet04;
+
 	// Use this for initialization
 	void Start () {
 //bullet01 = GameObject.Find ("orb01_purple");
@@ -20,17 +21,23 @@ public class create_bullet : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void onClick () {
-		if (wand01.activeSelf == true) {
-			Destroy (Instantiate (bullet01, cam.transform.position, cam.transform.rotation), 5f);
-		}
-		if (wand02.activeSelf == true) {
-			Destroy (Instantiate (bullet02, cam.transform.position, cam.transform.rotation), 5f);
-		}
-		if (wand03.activeSelf == true) {
-			Destroy (Instantiate (bullet03, cam.transform.position, cam.transform.rotation), 5f);
-		}
-		if (wand04.activeSelf == true) {
-			Destroy (Instantiate (bullet04, cam.transform.position, cam.transform.rotation), 5f);
+		if (bulletcount.bullet_count > 0) {
+			if (wand01.activeSelf == true) {
+				Destroy (Instantiate (bullet01, cam.transform.position, cam.transform.rotation), 5f);
+				bulletcount.bullet_count--;
+			}
+			if (wand02.activeSelf == true) {
+				Destroy (Instantiate (bullet02, cam.transform.position, cam.transform.rotation), 5f);
+				bulletcount.bullet_count--;
+			}
+			if (wand03.activeSelf == true) {
+				Destroy (Instantiate (bullet03, cam.transform.position, cam.transform.rotation), 5f);
+				bulletcount.bullet_count--;
+			}
+			if (wand04.activeSelf == true) {
+				Destroy (Instantiate (bullet04, cam.transform.position, cam.transform.rotation), 5f);
+				bulletcount.bullet_count--;
+			}
 		}
 	}
 }
