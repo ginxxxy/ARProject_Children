@@ -1,0 +1,49 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: Alien Flower
+Author: Meli M
+URL: https://poly.google.com/view/9MQX_x7kaJ_
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Flower Base
+Author: Jacob
+URL: https://poly.google.com/view/aov2WprWfGH
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Mushroom
+Author: Poly by Google
+URL: https://poly.google.com/view/2DAaKHD48ZP
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Purple Nebula
+Author: Tiff Eidmann
+URL: https://poly.google.com/view/3JfWbfxWEwt
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Shroooms
+Author: Lee Mason
+URL: https://poly.google.com/view/7ZzpNFDTSWS
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: snow
+Author: Daniele Spadafora (DaNieLo)
+URL: https://poly.google.com/view/dgyXpz0WIIo
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Spike
+Author: Dana Payne
+URL: https://poly.google.com/view/2WO8Jz1EDWG
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Virus
+Author: Poly by Google
+URL: https://poly.google.com/view/d_QDWsT0kBG
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
