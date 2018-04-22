@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ginxxxy.unity
+- path: Assets/starRating.unity
   isLoaded: 1
   isActive: 1
