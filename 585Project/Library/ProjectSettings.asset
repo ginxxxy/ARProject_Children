@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: ff213876bc5554068ad2cc2f108e2ca4
+  productGUID: b1b213e6e6b7c4b5c846fdc72c23b603
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -153,12 +153,11 @@ PlayerSettings:
   protectGraphicsMemory: 0
   useHDRDisplay: 0
   m_ColorGamuts: 00000000
-  targetPixelDensity: 30
+  targetPixelDensity: 0
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier:
-    Android: com.MyCompany.MyProductName
+  applicationIdentifier: {}
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -178,10 +177,10 @@ PlayerSettings:
     serializedVersion: 2
     m_Bits: 238
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 7.0
+  iOSTargetOSVersionString: 
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
-  tvOSTargetOSVersionString: 9.0
+  tvOSTargetOSVersionString: 
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -240,12 +239,12 @@ PlayerSettings:
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0
   clonedFromGUID: 00000000000000000000000000000000
-  AndroidTargetDevice: 3
+  AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
-  AndroidTVCompatibility: 0
+  AndroidTVCompatibility: 1
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
@@ -260,11 +259,7 @@ PlayerSettings:
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
-  m_BuildTargetEnableVuforiaSettings:
-  - m_BuildTarget: Standalone
-    m_Enabled: 1
-  - m_BuildTarget: Android
-    m_Enabled: 1
+  m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   m_TemplateCustomTags: {}
@@ -461,7 +456,7 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
-  ps4Passcode: j99nsQzldVI5ZuGXbEWRK5RhRXdCdG5n
+  ps4Passcode: 5PN2qmWqBlQ9wQj99nsQzldVI5ZuGXbE
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -507,7 +502,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: G5azdNMK66MuCV6GXi5xr84P2R391UXa
+  psp2PackagePassword: WRK5RhRXdCdG5nG5azdNMK66MuCV6GXi
   psp2KeystoneFile: 
   psp2MemoryExpansionMode: 0
   psp2DRMType: 0
@@ -553,13 +548,7 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
-  scriptingDefineSymbols:
-    1: CROSS_PLATFORM_INPUT
-    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    14: MOBILE_INPUT
-    17: MOBILE_INPUT
-    20: MOBILE_INPUT
+  scriptingDefineSymbols: {}
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
@@ -640,14 +629,12 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    Build: 1
-    UNet: 1
-  facebookSdkVersion: 7.9.4
+  cloudServicesEnabled: {}
+  facebookSdkVersion: 
   apiCompatibilityLevel: 2
-  cloudProjectId: c80c1f08-c3c5-4664-a2ed-b4364d9fc7c8
-  projectName: 585Project
-  organizationId: nealxiao
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

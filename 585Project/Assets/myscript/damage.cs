@@ -29,6 +29,21 @@ public class damage : MonoBehaviour {
 			col.gameObject.SetActive(false);
 			score++;
 		}
+<<<<<<< HEAD
+=======
+		if(col.gameObject.name == "Cube2")
+		{
+			//			col.gameObject.GetComponent<Renderer> ().material.color = Color.red;
+			col.gameObject.SetActive(false);
+			score++;
+		}
+		if(col.gameObject.name == "Cube3")
+		{
+			//			col.gameObject.GetComponent<Renderer> ().material.color = Color.red;
+			col.gameObject.SetActive(false);
+			score++;
+		}
+>>>>>>> ef4e1046809b88051eb830ae0b3b00c92d6af4f5
 	}
 
 
