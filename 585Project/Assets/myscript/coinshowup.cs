@@ -13,9 +13,13 @@ public class coinshowup : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (monster.activeSelf == false) {
+<<<<<<< HEAD
+			coin.SetActive (true);
+=======
 			if (coin != null) {
 				coin.SetActive (true);
 			}
+>>>>>>> ef4e1046809b88051eb830ae0b3b00c92d6af4f5
 		}
 	}
 }
